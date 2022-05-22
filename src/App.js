@@ -1,13 +1,10 @@
-import './app.scss';
+import LandingPage from "./pages/landingPage/landingPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Initial render
-        </p>
-      </header>
+    <div> 
+      yo
+      <LandingPage />
     </div>
   );
 }
