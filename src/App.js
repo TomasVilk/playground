@@ -1,11 +1,12 @@
 import './app.scss';
+import landingPage from "./pages";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Initial render
+          {landingPage}
         </p>
       </header>
     </div>
